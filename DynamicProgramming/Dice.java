@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class Dice{
+    //This is the memoization logic 
     public static long solve(int n,long dp[],long mod){
          if(n < 0 ){
              return 0;
